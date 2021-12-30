@@ -12,7 +12,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #fff;
-  font-family: "Sora", sans-serif;
+  font-family: "Sora", sans-serif !important;
 }
 nav {
   background: transparent;
@@ -297,10 +297,13 @@ nav {
 
 #footer {
   display: flex;
-  clip-path: ellipse(90% 100% at 38% 100%);
+  font-size: small !important;
+  border-radius: 10% 10% 0% 0%;
+  /*clip-path: ellipse(90% 100% at 38% 100%);*/
   background-color: #282828;
-  padding-bottom: 10vh !important;
-  padding-top: 10vh;
+ /* padding-bottom: 10vh !important;
+  padding-top: 10vh;*/
+  padding-top: 4vh;
   width:100%;
   font-family: "Sora", sans-serif !important;
 }
@@ -325,13 +328,16 @@ ul {
 }
 #link {
   margin-top: 0.4rem;
-  font-size: 2vw;
+  /*font-size: 2vw;*/
+  font-size: 1vw;
 }
 #head-link {
   color: cyan;
   font-weight: bold;
-  margin-bottom: 0.8rem;
-  font-size: 3vw;
+  /*margin-bottom: 0.8rem;*/
+  margin-bottom: 0.3rem;
+ /* font-size: 3vw;*/
+ font-size:2vw;
 }
 
 /* carousel ends here*/
@@ -511,10 +517,10 @@ textarea {
   right: -20px;
   transition: 0.5s;
 }
-
+/*
 .button1:hover span {
   padding-right: 25px;
-}
+}*/
 
 .button1:hover {
     background-color: black;

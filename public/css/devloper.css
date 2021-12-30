@@ -47,9 +47,12 @@
   }
   .our-team .picture {
     display: inline-block;
-    height: 130px;
-    width: 130px;
-    margin-bottom: 50px;
+    /*height: 130px;
+    width: 130px;*/
+    height: 170px;
+    width: 170px;
+    /*margin-bottom: 50px;*/
+    margin-bottom: 15px;
     z-index: 1;
     position: relative;
   }
@@ -151,11 +154,14 @@
     top: 5%;
     /*margin: 10px;*/
     margin: 0;
-    height: 2em;
-    color: blanchedalmond;
+    color: white;
+    /*height: 2em;*/
+    /*color: blanchedalmond;*/
     justify-content: center;
     align-items: center;
-    width: 100%;
+    /*width: 100%;*/
+    width: 75vw;
+    margin-left: 12.5vw;
     text-align: center;
     font-size: xx-large;
     font-weight: bolder;
@@ -191,13 +197,14 @@
  margin: 10px;
  height: 5em;
  /*color: rgb(62, 241, 217);*/
- color: rgba(180, 142, 70, 0.911);
+ /*color: rgba(180, 142, 70, 0.911);*/
+ color: white;
  justify-content: center;
  align-items: center;
  text-align: center;
  display:flex;
  width: 100%;
- font-family: 'Dancing+Script', 'Roboto:ital@1' ;
+/* font-family: 'Dancing+Script', 'Roboto:ital@1' ;*/
  /*font-style: italic;*/
  font-size:4em;
  font-weight: bolder;
@@ -218,7 +225,8 @@
     top: 25%;
     margin: 0;
     height: min-content;
-    color: rgba(180, 142, 70, 0.911);
+    color: white;
+    /*color: rgba(180, 142, 70, 0.911);*/
     justify-content: center;
     align-items: center;
     text-align: center;

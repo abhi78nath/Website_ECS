@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/ResHubImages/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/ResHubImages/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/ResHubImages/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/ResHubImages/favicon/site.webmanifest">
+    <title>RES-Hub | 3rdSEM</title>
+    <!-- <link rel="stylesheet" href="./style2.css"> -->
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,200&display=swap');
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: 'Raleway', sans-serif;
+    }
+    /* .nav{
+    height:9px;
+    background:rgba(255,255,255,0.2)
+    } */    body{
+        background-image: linear-gradient(180deg, #380036 0%, #0cbaba 100%);
+        background-attachment: fixed;
+    }
+    body::-webkit-scrollbar {
+        display:none;
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    .nav-img{
+        /* width:111px; */
+    }
+    header{
+        width: 100%;
+        padding:8px;
+        display:flex;
+        justify-content:space-between;
+        /* background:skyblue; */
+        color:white;
+        position: relative;
+        top: 8px;
+    }
+    .nav-list{
+        display:flex;
+        flex-flow : row wrap;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 17px;
+        position: relative;
+        top: -5px;
+    }
+    .nav-list li{
+        display:inline-block;
+        padding:10px;
+        margin: 4px;
+        width:auto;
+        border-radius: 10px;
+    }
+    li{
+        transition: .3s ;
+        border-bottom: 2px solid transparent;
+    }
+    li:hover{
+
+        background: white;
+        color:black;
+        border-bottom: 2px solid black;
+    }
+    .sign:hover{
+        color:brown;
+    }
+    .log:hover{
+        color:brown;
+    }
+    .title{
+        width: 100%;
+        padding:1px;
+        position: relative;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        /* background:skyblue; */
+        color:white;
+        top:53px;
+        flex-direction: column;
+    }
+    .pyq{
+        position: relative;
+        /* left: 20px; */
+        top: 9px;
+        font-size: 20px;
+        font-stretch: 4px;
+        letter-spacing: 3px;
+        text-decoration: underline;
+        margin-bottom: 13px;
+    }
+    .cards{
+        display:-webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display:-o-flex;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        min-height:100vh;
+        /* background-image: url(./pexels-rok-romih-3367931.jpg); */
+        background-size:cover ;
+        background-position: center center;
+        /* font-family */
+    }
+    .wrapper{
+        /* display:grid;
+        grid-template-columns:repeat(3,1fr);
+        grid-gap:30px; */
+        display: flex;
+        position: relative;
+        flex-wrap: wrap;
+        justify-content: center;
+        top: -57px;
+    }
+    .wrapper .box{
+        /* width: 274px;    for 5subjects */
+        width: 221px;   /* for 6subjects */
+        /* width: 18%; */
+        height: 324px;
+        /* height: 33%; */
+        margin: 12px;
+        border-radius:15px;
+        transition:transform 500ms ease-out;
+        overflow: hidden;
+        color:#fff;
+        padding: 5%;
+        text-align:center;
+        /* background:rgba(255,255,255,0.2); */
+        backdrop-filter: blur(30px);
+        border:2px none rgba(255,255,255,0.1);
+    }
+    .card-content{
+        padding: 1.1em;
+        background: hsl(0 0% 0% / 0.7);
+        position: absolute;
+        /* bottom: 0px; */
+        /* display: none; */
+        /* left:274px; */
+        /* right: 112px;  for 5subjects */
+        right: 112px;/* for 6subjects */
+        top: 217px;
+        border-radius:33px ;
+        transform: translateX(0px);
+        transition:transform 0.3s ease;
+    }
+    .card-content .box:hover{
+        transform:translateX(-159px);
+        /* transition: transform 500ms ease; */
+        /* display: block; */
+    }
+    .card-title{
+        width:98px;
+    }
+    .sub1{
+        background-image: url(./ResHubImages/3rdSemImg/cs201.jpg);
+        background-size:cover ;
+        background-position: center center;
+        /* object-fit: cover; */
+    }
+    .sub2{
+        background-image: url(./ResHubImages/3rdSemImg/EC201.jpg);
+        background-size:cover ;
+        background-position: center center;
+        /* object-fit: cover; */
+    }
+    .sub3{
+        background-image: url(./ResHubImages/3rdSemImg/EC202.jpg);
+        background-size:cover ;
+        background-position: center center;
+        /* object-fit: cover; */
+    }
+    .sub4{
+        background-image: url(./ResHubImages/3rdSemImg/EC203.jpg);
+        background-size:cover ;
+        background-position: center center;
+        /* object-fit: cover; */
+    }
+    .sub5{
+        background-image: url(./ResHubImages/3rdSemImg/EE221.jpg);
+        background-size:cover ;
+        background-position: center center;
+        /* object-fit: cover; */
+    }
+    .sub6{
+        background-image: url(/ResHubImages/3rdSemImg/MA201.png);
+        background-size:cover ;
+        background-position: center center;
+        /* object-fit: cover; */
+    }
+
+    .box img{
+        /* width:269px; */
+        width: 106%;
+        height: 101%;
+        
+    }
+    .box img:hover{
+        transform: scale(1.2);
+        transition:transform 900ms ease
+    }
+    .box h4{
+        font-size: 25px;
+        margin-top: 30px;
+        color:rgba(255,255,255,0.7)
+    }
+    .box p{
+        line-height:1.9;
+        color:rgba(255,255,255,0.7)
+    }
+    .box a{
+        border:none;
+        /* background:#fff; */
+        padding: 15px 50px;
+        display: inline-block;
+        margin-top:20px;
+        text-decoration:none;
+        font-size:14px;
+        border-radius:50px;
+    }
+    .wrapper .box:before{
+        content:'';
+        background:rgba(255,255,255,0.1);
+        width:60%;
+        height:100%;
+        top:0%;
+        left:-125%;
+        transform:skew(45deg);
+        position:absolute;
+        animation-direction:left;
+        transition-duration:800ms;
+    }
+    .wrapper .box:hover{
+        transform: translateY(-5%);
+    }
+    .wrapper .card-content:hover{
+        cursor: pointer;
+        
+    }
+    .wrapper .box:hover:before{
+        left:150%;
+    }
+    @media only screen and (max-width:1024px){
+        .wrapper{
+           top:68px; 
+        }
+    }
+    @media only screen and (max-width:838px){
+        header{
+            flex-flow:wrap;
+            justify-content: center;
+        }
+        
+
+    }
+</style>
+<body>
+
+    <header>
+        <a href="/"><img class="nav-img" src="/ResHubImages/compressed logo.png" height="35cm" alt="ECS"></a>
+      <!--   <button>click this</button> -->
+        <ul class="nav-list">
+            <li><a href="/1stsem">1stSem</a></li>
+            <li><a href="/2ndsem">2nd Sem </a></li>
+             <li><a href="/3rdsem">3rdsem</a></li>
+             <li><a href="/4thsem">4thsem</a></li>
+             <li><a href="/5thsem">5thsem</a></li>
+             <li><a href="/6thsem">6thsem</a></li>
+             <li><a href="/7thsem">7thsem</a></li>
+             <li><a href="/8thsem">8thsem</a></li>
+       </ul>
+      </header>
+
+      <div class="title">
+          <h1>3rd Semester</h1>
+          <div class="pyq">
+            <a style="font-family: 'Mulish', sans-serif; font-weight: bold; color:beige;font-size: smaller;"  href="https://drive.google.com/drive/folders/1NK3EiJ79dDQtxC-lQPWcMnfeNMXs6fgi?usp=sharing">Previous Year Questions</a>
+        </div>
+      </div>
+    <div class="cards">
+        <div class="wrapper">
+            <div class="box sub1">
+                <a href="https://drive.google.com/drive/folders/1Waw3okYfQZ4LAv0M4gH2hjDxihvYBp1U?usp=sharing">
+                    <div class="card-content">
+                        <h2 class="card-title"> CS 201</h2>
+    
+                    </div>
+
+                </a>
+                <!-- <img src="./folder.png" alt="folder"> -->
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, enim?</p> -->
+                <!-- <h4>Lorem, ipsum dolor.</h4> -->
+                <!-- <h3>CE 101</h3> -->
+                <!-- <img src="./ResHubImages/EVS.png" alt="EVS"> -->
+                <!-- <a href="#">Learn More</a> -->
+            </div>
+
+            <div class="box sub2">
+                <a href="https://drive.google.com/drive/folders/1yg5DfbygXgUOw8hZY0PyRfNc1J5i9BL8?usp=sharing">
+
+                    <div class="card-content">
+                        <h2 class="card-title">Ec 201</h2>
+    
+                    </div>
+                </a>
+                <!-- <img src="./folder.png" alt="folder"> -->
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, enim?</p> -->
+                <!-- <h4>Lorem, ipsum dolor.</h4> -->
+                <!-- <a href="#">Learn More</a> -->
+            </div>
+
+            <div class="box sub3">
+                <a href="https://drive.google.com/drive/folders/1X-NAB6RW7gt7D02iN4LrlodJdh-ExN-8?usp=sharing">
+                    <div class="card-content">
+                        <h2 class="card-title">Ec 202</h2>
+    
+                    </div>
+
+                </a>
+                <!-- <img src="./folder.png" alt="folder"> -->
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, enim?</p> -->
+                <!-- <h4>Lorem, ipsum dolor.</h4> -->
+                <!-- <a href="#">Learn More</a> -->
+            </div>
+
+            <div class="box sub4">
+                <a href="https://drive.google.com/drive/folders/1ZreTTYywS3I6NXJqcKwa_BVprsv-GcRa?usp=sharing">
+                    <div class="card-content">
+                        <h2 class="card-title">Ec 203</h2>
+    
+                    </div>
+
+                </a>
+                <!-- <img src="./folder.png" alt="folder"> -->
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, enim?</p> -->
+                <!-- <h4>Lorem, ipsum dolor.</h4> -->
+                <!-- <a href="#">Learn More</a> -->
+            </div>
+
+            <div class="box sub5">
+                <a href="https://drive.google.com/drive/folders/1pDK7I25VsC2-xUpxVP7QPbJvEQln2-LI?usp=sharing">
+                    <div class="card-content">
+                        <h2 class="card-title">EE 221</h2>
+    
+                    </div>
+
+                </a>
+                <!-- <img src="./folder.png" alt="folder"> -->
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, enim?</p> -->
+                <!-- <h4>Lorem, ipsum dolor.</h4> -->
+                <!-- <a href="#">Learn More</a> -->
+            </div>
+            <div class="box sub6">
+                <a href="https://drive.google.com/drive/folders/1o9O7EcyZWrebukg4tFr5f49UsP3BoY4m?usp=sharing">
+                    <div class="card-content">
+                        <h2 class="card-title">MA 201</h2>
+    
+                    </div>
+
+                </a>
+                <!-- <img src="./folder.png" alt="folder"> -->
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, enim?</p> -->
+                <!-- <h4>Lorem, ipsum dolor.</h4> -->
+                <!-- <a href="#">Learn More</a> -->
+            </div>
+        </div>
+    </div>
+    <script src="/js/script_reshub.js"></script>
+        
+</body>
+</html>

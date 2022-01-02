@@ -13,6 +13,7 @@ body {
   background-attachment: fixed;
   color: #fff;
   font-family: "Sora", sans-serif !important;
+ 
 }
 nav {
   background: transparent;
@@ -202,6 +203,9 @@ nav {
 
 /* carousel starts here */
 
+/*#annual_attraction {
+  height: 350px;
+}*/
 #events {
   height: 350px;
 }
@@ -267,8 +271,20 @@ nav {
 }
 .card-text {
   color: #000d6b;
+  overflow: hidden;
 }
-
+.card-body{
+  overflow: auto;
+}
+/* card overflow scroll hidden*/
+.card-body::-webkit-scrollbar{
+  display: none;
+}
+.card-body{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+/*scroll css end*/
 @media only screen and (max-width: 540px){
 
   .card-text {
@@ -329,7 +345,7 @@ ul {
 #link {
   margin-top: 0.4rem;
   /*font-size: 2vw;*/
-  font-size: 1vw;
+  font-size: 1.5vw;
 }
 #head-link {
   color: cyan;
@@ -337,7 +353,7 @@ ul {
   /*margin-bottom: 0.8rem;*/
   margin-bottom: 0.3rem;
  /* font-size: 3vw;*/
- font-size:2vw;
+ font-size:2.3vw;
 }
 
 /* carousel ends here*/
@@ -530,4 +546,10 @@ textarea {
 .button1:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+/*copyright*/
+.cp-text{ color: white; 
+  text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+  text-align: center;
 }

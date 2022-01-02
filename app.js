@@ -38,6 +38,10 @@ app.get("/gallery",function(req,res){
     res.render("gallery.ejs");
 });
 
+app.get("/FAQ",function(req,res){
+    res.render("FAQ.ejs");
+});
+
 app.get("/1stsem",function(req,res){
     res.render("1stsem.ejs");
 });

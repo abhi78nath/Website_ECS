@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Sora:wght@200&display=swap");
 *
 {
     margin: 0;
@@ -22,7 +23,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #fff;
-    font-family: "Sora", sans-serif;
+    font-family: "Sora", sans-serif !important;
   }
 
 
@@ -75,12 +76,17 @@ h1
 
 
 #footer {
-    clip-path: ellipse(90% 100% at 38% 100%);
+    display: flex;
+    font-size: small !important;
+    border-radius: 10% 10% 0% 0%;
+    /*clip-path: ellipse(90% 100% at 38% 100%);*/
     background-color: #282828;
-    padding-bottom: 10vh;
-    padding-top: 10vh;
-    
-}
+   /* padding-bottom: 10vh !important;
+    padding-top: 10vh;*/
+    padding-top: 4vh;
+    width:100%;
+    font-family: "Sora", sans-serif !important;
+  }
 
 
 #part {
@@ -96,6 +102,43 @@ h1
   #head-link {
     color: cyan;
     font-weight: bold;
-    margin-bottom: 0.8rem;
-    font-size: 3vw;
+    margin-bottom: 0.3rem;
+    font-size: 2.3vw;
+  }
+
+  .modal-dialog {
+    /* width: 1000px; */
+    /* min-width: 80vw; */
+    max-width: 800px;
+    /* width: 80vw; */
+  }
+  .modal-content {
+    background-color: #292929;
+    border-radius: 12px;
+  }
+  .modal-header {
+    border-bottom: none;
+  }
+  .modal-footer {
+    border-top: none;
+  }
+  
+  .form-control {
+    background-color: #121212 !important;
+    border: 2px solid #8e2de2;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+  }
+  input,
+  textarea {
+    color: white !important;
+  }
+
+  /*copyright*/
+.cp-text{ color: white; 
+    text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    font-size: 1.5vw;
   }

@@ -1,10 +1,22 @@
 const express=require("express");
 const ejs=require("ejs");
 const app=express();
+const compression=require("compression");
 
 app.set('view engine','ejs');
 
 app.use(express.static("public"));
+
+app.use(compression({
+    level: 6,
+    threshold: 0,
+    filter:(req,res)=>{
+        if(req.headers['x-no-compression']){
+            return false;
+        }
+        return compression.filter(req,res);
+    },
+}));
 
 app.get("/",function(req,res){
     res.render("home.ejs");

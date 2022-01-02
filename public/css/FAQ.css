@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    /* background-image: url(wp.jpg.jpg);  */
+    background-repeat: none;
+    background-size: 100%;
+    
+    /* background-image: linear-gradient(180deg, #380036 0%, #0CBABA 100%);  */
+}
+html{
+    height: 100%;
+}
+
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    background-image: linear-gradient(180deg, #380036 0%, #0cbaba 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    font-family: "Sora", sans-serif;
+  }
+
+
+
+h1
+{
+    text-align: center;
+    margin: 50px 0 !important;
+    font-family: sans-serif;
+    text-shadow: black;
+    text-decoration-style: solid;
+    background-color: transparent;
+    
+}
+.accordion-item
+{
+    /* background-color: rgb(113, 136, 138); */
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
+    /* box-shadow:  0 2px 25px 0 rgba(110,130,208,.18);
+     */
+    color:black;
+}
+.accordion-button{
+    width: 100%;
+    height: 60px;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+}
+/* .accordion-body{
+    background-color: #e8eeff;
+} */
+/* .accordion-button:after{
+    content: '\2212';
+    width: 35px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    right: 15px;
+    top: 11px;
+} */
+.accordian-header{
+
+    background-color: violet;
+
+}
+
+
+#footer {
+    clip-path: ellipse(90% 100% at 38% 100%);
+    background-color: #282828;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    
+}
+
+
+#part {
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+  }
+  #link {
+    margin-top: 0.4rem;
+    font-size: 2vw;
+  }
+  #head-link {
+    color: cyan;
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+    font-size: 3vw;
+  }

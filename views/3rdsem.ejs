@@ -27,12 +27,15 @@
         background-image: linear-gradient(180deg, #380036 0%, #0cbaba 100%);
         background-attachment: fixed;
     }
+    body::-webkit-scrollbar {
+        display:none;
+    }
     a{
         text-decoration: none;
         color: inherit;
     }
     .nav-img{
-        width:111px;
+        /* width:111px; */
     }
     header{
         width: 100%;
@@ -41,6 +44,8 @@
         justify-content:space-between;
         /* background:skyblue; */
         color:white;
+        position: relative;
+        top: 8px;
     }
     .nav-list{
         display:flex;
@@ -48,6 +53,8 @@
         justify-content: space-around;
         align-items: center;
         font-size: 17px;
+        position: relative;
+        top: -5px;
     }
     .nav-list li{
         display:inline-block;
@@ -92,6 +99,7 @@
         font-stretch: 4px;
         letter-spacing: 3px;
         text-decoration: underline;
+        margin-bottom: 13px;
     }
     .cards{
         display:-webkit-flex;
@@ -187,7 +195,7 @@
         /* object-fit: cover; */
     }
     .sub6{
-        background-image: url(/ResHubImages/1stSemImg/ma101.jpeg);
+        background-image: url(/ResHubImages/3rdSemImg/MA201.png);
         background-size:cover ;
         background-position: center center;
         /* object-fit: cover; */
@@ -261,7 +269,7 @@
 <body>
 
     <header>
-        <a href="/"><img class="nav-img" src="/ResHubImages/compressed logo.png" alt="ECS"></a>
+        <a href="/"><img class="nav-img" src="/ResHubImages/compressed logo.png" height="35cm" alt="ECS"></a>
       <!--   <button>click this</button> -->
         <ul class="nav-list">
             <li><a href="/1stsem">1stSem</a></li>
@@ -278,7 +286,7 @@
       <div class="title">
           <h1>3rd Semester</h1>
           <div class="pyq">
-            <a style="font-family: 'Mulish', sans-serif; font-weight: bold;"  href="https://drive.google.com/drive/folders/1NK3EiJ79dDQtxC-lQPWcMnfeNMXs6fgi?usp=sharing">P.Y.Qs</a>
+            <a style="font-family: 'Mulish', sans-serif; font-weight: bold; color: #fafa70;font-size: smaller;"  href="https://drive.google.com/drive/folders/1NK3EiJ79dDQtxC-lQPWcMnfeNMXs6fgi?usp=sharing">Previous Year Questions</a>
         </div>
       </div>
     <div class="cards">

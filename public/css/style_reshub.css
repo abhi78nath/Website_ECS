@@ -49,6 +49,9 @@ body::-webkit-scrollbar {
     justify-content:space-between;
     
     color:white; */
+    position: relative;
+    top: 8px;
+
 }
 /*.nav-img{
     width:111px;

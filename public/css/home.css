@@ -345,7 +345,7 @@ ul {
 #link {
   margin-top: 0.4rem;
   /*font-size: 2vw;*/
-  font-size: 2vw;
+  font-size: 1.4vw;
 }
 #head-link {
   color: cyan;
@@ -353,7 +353,29 @@ ul {
   /*margin-bottom: 0.8rem;*/
   margin-bottom: 0.3rem;
  /* font-size: 3vw;*/
- font-size:2.3vw;
+ font-size:1.7vw;
+}
+.faq_new{
+  font-size: 1.7vw;
+}
+
+@media only screen and (max-width: 540px){
+  #link {
+    margin-top: 0.4rem;
+    /*font-size: 2vw;*/
+    font-size: 2vw;
+  }
+  #head-link {
+    color: cyan;
+    font-weight: bold;
+    /*margin-bottom: 0.8rem;*/
+    margin-bottom: 0.3rem;
+   /* font-size: 3vw;*/
+   font-size:2.3vw;
+  }
+  .faq_new{
+    font-size: 3vw !important;
+  }
 }
 
 /* carousel ends here*/

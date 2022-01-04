@@ -6,7 +6,9 @@ body {
     background-attachment: fixed;
     margin:0;
 }
-.mySlides2 {display: none}
+
+
+/*.mySlides2 {display: none}
 .slideshow-container2 {
     overflow: hidden;
     height: 25vw;
@@ -24,7 +26,10 @@ body {
   display: none;
   animation: slide 2s ease;
   background-repeat: no-repeat;
+  
 }
+
+
 .prev2, .next2 {
   cursor: pointer;
   position: absolute;
@@ -90,6 +95,97 @@ body {
 }
 @media only screen and (max-width: 500px) {
     .prev2, .next2{font-size: 14px;}
+  }
+  */
+
+  /*------------new gallery-------------------*/
+  .slider-container_new {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    height: 25vw;
+    width: 50vw;
+    margin: 20px auto;
+    /*margin-bottom: 28px;
+    margin-left: 20vw;*/
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .slider-container_new::after {
+    background-color: #000;
+    content: '';
+    position: absolute;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .slide_new {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    transform: scale(1.15);
+    transition: opacity .6s ease;
+  }
+  
+  .slide_new.active {
+    animation: grow 4s linear forwards;
+    opacity: 1;
+  }
+  
+  @keyframes grow {
+    0%, 20% {
+      transform: scale(1);
+    }
+    
+    75%, 100% {
+      transform: scale(1.15);
+    }
+  }
+  
+  .controls-container_new {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+  
+  .control_new {
+    background-color: #fff;
+    cursor: pointer;
+    opacity: 0.5;
+    margin: 1vh;
+    height: 2.5vh;
+    width: 0.3vw;
+    transition: opacity 0.3s, background-color 0.3s, transform 0.3s;
+  }
+  
+  .control_new.active, .control_new:hover {
+    background-color: #fff;
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  
+  @media (max-width: 767px){
+    .slider-container_new{
+      width: 90vw;
+      height: 50vw;
+    }
   }
   
  

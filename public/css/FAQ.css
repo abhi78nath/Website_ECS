@@ -41,9 +41,10 @@ h1
 .accordion-item
 {
     /* background-color: rgb(113, 136, 138); */
-    border: none;
+   /* border: none;*/
     padding: 0;
     margin-bottom: 20px;
+    
     /* box-shadow:  0 2px 25px 0 rgba(110,130,208,.18);
      */
     color:black;
@@ -55,6 +56,7 @@ h1
     font-weight: bold;
     text-align: left;
     text-decoration: none;
+    
 }
 /* .accordion-body{
     background-color: #e8eeff;

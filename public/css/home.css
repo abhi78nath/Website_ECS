@@ -576,7 +576,7 @@ textarea {
     }
 }
 
-@-keyframes spin {
+@keyframes spin {
     100% {
         -webkit-transform: rotate(360deg);
     }

@@ -1,93 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
 
-    <link rel="icon" type="image/png" sizes="32x32" href="/imgs/ecs new logo 1-1white 32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/imgs/ecs new logo 1 black bg 32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/imgs/ecs new logo 1 black bg 32.png">
 
     <!--annual att.-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Moo+Lah+Lah&family=Moon+Dance&family=Roboto:ital@1&family=Vujahday+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Moo+Lah+Lah&family=Moon+Dance&family=Roboto:ital@1&family=Vujahday+Script&display=swap" rel="stylesheet">
     <!--annual att.-->
     <!--ecs font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Moon+Dance&family=Roboto:ital@1&display=swap" rel="stylesheet">
-<!--fontsyle ecs-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Moon+Dance&family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <!--fontsyle ecs-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="/css/slider.css">
     <link rel="stylesheet" href="/css/home.css" />
-    
-  </head>
-  <body onload="loadfun()">
+
+</head>
+
+<body onload="loadfun()">
     <div id="loader-div" class="loader-div">
-      <div class="loader">
-        <img class="big" src="https://assets.codepen.io/5628206/sheika_big.svg" />
-      <img
-        class="small"
-        src="https://assets.codepen.io/5628206/sheika_small2.svg"
-      />
-      </div>
-      
+        <div class="loader">
+            <img class="big" src="https://assets.codepen.io/5628206/sheika_big.svg" />
+            <img class="small" src="https://assets.codepen.io/5628206/sheika_small2.svg" />
+        </div>
+
     </div>
 
     <div id="main-div">
-      <nav class="navbar navbar-expand-lg navbar-dark mb-3">
-        <div class="container-fluid">
-          <a
-            style="font-weight: bolder; font-size: x-large"
-            class="navbar-brand"
-            href="/"
-            ><img src="/imgs/ecs new logo 1 black bg.png" height="35cm"> </a
-          >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+        <nav class="navbar navbar-expand-lg navbar-dark mb-3">
+            <div class="container-fluid">
+                <a style="font-weight: bolder; font-size: x-large" class="navbar-brand" href="/"><img src="/imgs/ecs new logo 1 black bg.png" height="35cm"> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarNavAltMarkup"
-          >
-            <div class="navbar-nav">
-              <a
-                class="nav-link active px-3 py-4 active-link"
-                aria-current="page"
-                href="/"
-                >Home</a
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active px-3 py-4 active-link" aria-current="page" href="/">Home</a
               >
               <a
                 class="nav-link active px-3 py-4 active-link"
                 aria-current="page"
                 href="/Resources"
+                target="_blank"
                 >Resource Hub</a
               >
               <a
                 class="nav-link active px-3 py-4 active-link"
                 aria-current="page"
                 href="#annual_attraction"
-                >Events</a
+                >Annual Attractions</a
               >
               <a
                 class="nav-link active px-3 py-4 active-link"
@@ -107,6 +79,12 @@
                 href="./Developers"
                 >Developers</a
               >
+              <a
+              class="nav-link active px-3 py-4 active-link"
+              aria-current="page"
+              href="/FAQ"
+              >FAQ</a
+            >
             </div>
           </div>
 
@@ -174,11 +152,7 @@
               alt=""
               class="ball"
             />
-            <div>
-              
-
-
-              
+            <div>              
 
               <svg id="illustration-lap" width="500" viewBox="0 0 701 701" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="Main_illustration 1">
@@ -619,8 +593,6 @@
                 </defs>
                 </svg>
                 
-                
-
             </div>
             <img
               id="svg-element"
@@ -640,173 +612,203 @@
         </div>
       </div>
 
-      <div class="container mt-5 pt-4 messages" id="messages">
+      <!-- Events Carousel -->
+      <div class="announcement">
+        <div class="ann-head1">
+          <h3><b style="font-weight: bolder; font-size: 2em; font-family: 'sans', cursive;">ECS</b></h3>
+        </div>
+        <div class="ann-head2" >
+          <h4 style="font-size:1em">Presents</h4>
+        </div>
+        <div class="ann-head3" style="letter-spacing: 5px ">
+          <h3><b>EOM HACKERKNIGHT</b></h3>
+        </div>
+        <div class="ann-head4">
+          <h5><b>In association with</b></h5>
+        </div>
+        <div class="ann-head5">
+          <img class="ann-logo" src="/imgs/CodingNinja.png" alt="coding ninja logo">
+          
+        </div>
+        
+      </div>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div> -->
+        <div class="carousel-inner text-center">
+          <div class="carousel-item active">
+            <img src="/imgs/EoM Hackerknight-01.png" alt="hackernight"
+            class="carousel-img" id="hackerknight">
+            <div class="container">
+              <div class="carousel-caption">
+                <!-- <h1>Example headline.</h1>
+                <p>Some representative placeholder content for the first slide of the carousel.</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <img src="/imgs/camp1.jpeg" class="carousel-img" />
+            <div class="container" >
+              <div class="carousel-caption">
+                <!-- <h1>Example headline.</h1>
+                <p>Some representative placeholder content for the first slide of the carousel.</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-events">
+            <img src="/imgs/camp2.jpeg" alt="event" class="carousel-img" />
+            <div class="container">
+              <div class="carousel-caption">
+                <!-- <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p> -->
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/imgs/camp3.jpeg" alt="event" class="carousel-img" />
+                <div class="container">
+                    <div class="carousel-caption text-end">
+                        <!-- <h1>One more for good measure.</h1>
+                <p>Some representative placeholder content for the third slide of this carousel.</p> -->
+                        <!-- <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p> -->
+                    </div>
+                </div>
+            </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="links">
+        <button class="text-center mx-3 imp-button"><a  href="https://forms.gle/Vq5WiaxnheGxXHCL9" target="_blank">Register for BootCamp</a></button>
+        <button class="text-center mx-3 imp-button"><a  href="https://bit.ly/3L7tI2h" target="_blank">Register for Contest</a></button>
+    </div>
+
+    <!-- Events Carousel End -->
+
+    <div class="container mt-5 pt-4 messages" id="messages">
         <h1 style="font-weight: bold" class="text-center">Messages</h1>
 
-        <div
-          id="carouselExampleFade"
-          class="carousel slide carousel-fade"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="d-flex justify-content-center py-4">
-                <div
-                  id="dp-div"
-                  class="rounded-circle d-flex justify-content-center"
-                >
-                  <img
-                    id="dp"
-                    class="rounded-circle my-3"
-                    src="/imgs/wasim_arif_sir.jpg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="d-flex justify-content-center">
-                <div class="px-6 mt-3">
-                  <h4 style="font-weight: bold" class="text-center">
-                    Dr. Washim Arif
-                  </h4>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center py-4">
+                        <div id="dp-div" class="rounded-circle d-flex justify-content-center">
+                            <img id="dp" class="rounded-circle my-3" src="/imgs/wasim_arif_sir.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="px-6 mt-3">
+                            <h4 style="font-weight: bold" class="text-center">
+                                Dr. Washim Arif
+                            </h4>
 
-                  <p class="text-center px-5">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Neque dolorum aut ratione accusamus nesciunt nihil eos,
-                    ducimus temporibus magnam eius ut possimus doloribus eveniet
-                    accusantium dignissimos distinctio laboriosam, iste
-                    necessitatibus architecto libero sed veritatis recusandae
-                    sunt aperiam? Unde, explicabo rem?
-                  </p>
+                            <p class="text-center px-5">
+                                "ECE department has always been blend of talents, technical as well as cultural, and I am proud that our students work hard each day to do the extraordinary. This website built by the students is an example of the talent we harbor. I wish everyone a great
+                                future and a marvelous life ahead."<br>
+                                <span style="font-weight: bold;">Dr. Washim Arif</span><br> -Faculty Adivser,ECS.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-              </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center py-4">
+                        <div id="dp-div" class="rounded-circle d-flex justify-content-center">
+                            <img id="dp" class="rounded-circle my-3" src="/imgs/Ayan.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="px-6 mt-3">
+                            <h4 style="font-weight: bold" class="text-center">
+                                Ayan Talukdar
+                            </h4>
+                            <p class="text-center px-5">
+                                "ECS is not just a society, it's a family of all the students in the department. We have always tried to outdo the impossible, be it in offline or the virtual mode. From technical to cultural extravaganza, ECS has always been at par and maybe that's why
+                                ECE is marked as one of the most coolest department. I, as the president of ECS, thank each and every one who has been a part and parcel to achieve what we are today.<br> Good luck.<br> ECS
+                                Rocks!"
+                                <br>
+                                <span style="font-weight: bold;">Ayan Talukdar</span><br> -President,ECS.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center py-4">
+                        <div id="dp-div" class="rounded-circle d-flex justify-content-center">
+                            <img id="dp" class="rounded-circle my-3" src="/imgs/Aashwin.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="px-6 mt-3">
+                            <h4 style="font-weight: bold" class="text-center">
+                                Aashwin Mehrotra
+                            </h4>
+                            <p class="text-center px-5">
+                                ECS is one of the most active societies of NITS, and I feel privileged to serve as its Vice President for the session 2021-22. As a society, we aim to provide a platform where the students get ample opportunities to explore, learn, and grow in technical
+                                as well as non-technical fields. We will continue to work hard and take ECS to greater heights. I would request everyone to make the most out of these opportunities and enhance their skillset. I wish everyone the best of
+                                luck for all their future endeavours.<br>
+                                <span style="font-weight: bold;">Aashwin Mehrotra</span><br> -Vice President
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center py-4">
+                        <div id="dp-div" class="rounded-circle d-flex justify-content-center">
+                            <img id="dp" class="rounded-circle my-3" src="/imgs/Afsana.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="px-6 mt-3">
+                            <h4 style="font-weight: bold" class="text-center">
+                                Afsana Yasmin
+                            </h4>
+                            <p class="text-center px-5">
+                                Dear ECEians, It's my immense pleasure to stand at this position and stay uprooted to serve the society, which is not only active but also voluntarily present to bring significant changes for the upliftment of the students. ECS has always taken good care
+                                of all the requirements of the students in the department and I can proudly say that it's all feasible because of the teamwork that is done and seen. I would like to thank my seniors, my beloved batchmates and my dear juniors,
+                                and not to forget, our respected faculty members, for always coming together and making things possible. I wish everyone a great year ahead, and for everything that comes along, All the best!<br>                                As we used to say and will say forever,<br> "ECE ROCKS!"<br>
+
+                                <span style="font-weight: bold;">Afsana Yasmin</span><br> -General Secretary, ECS
+
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
-            <div class="carousel-item">
-              <div class="d-flex justify-content-center py-4">
-                <div
-                  id="dp-div"
-                  class="rounded-circle d-flex justify-content-center"
-                >
-                  <img
-                    id="dp"
-                    class="rounded-circle my-3"
-                    src="/imgs/Ayan.jpg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="d-flex justify-content-center">
-                <div class="px-6 mt-3">
-                  <h4 style="font-weight: bold" class="text-center">
-                    Ayan Talukdar
-                  </h4>
-                  <p class="text-center px-5">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Neque dolorum aut ratione accusamus nesciunt nihil eos,
-                    ducimus temporibus magnam eius ut possimus doloribus eveniet
-                    accusantium dignissimos distinctio laboriosam, iste
-                    necessitatibus architecto libero sed veritatis recusandae
-                    sunt aperiam? Unde, explicabo rem?
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <div class="d-flex justify-content-center py-4">
-                <div
-                  id="dp-div"
-                  class="rounded-circle d-flex justify-content-center"
-                >
-                  <img
-                    id="dp"
-                    class="rounded-circle my-3"
-                    src="/imgs/Aashwin.jpg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="d-flex justify-content-center">
-                <div class="px-6 mt-3">
-                  <h4 style="font-weight: bold" class="text-center">
-                    Aashwin Mehrotra
-                  </h4>
-                  <p class="text-center px-5">
-                    ECS is one of the most active societies of NITS, and I feel privileged to serve as its Vice President for the session 2021-22. As a society, we aim to provide a platform where the students get ample opportunities to explore, learn, and grow in technical as well as non-technical fields. We will continue to work hard and take ECS to greater heights. I would request everyone to make the most out of these opportunities and enhance their skillset. I wish everyone the best of luck for all their future endeavours.<br>
-                    <u style="font-weight: bold;">Aashwin Mehrotra</u><br>
-                    -Vice President
-
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <div class="d-flex justify-content-center py-4">
-                <div
-                  id="dp-div"
-                  class="rounded-circle d-flex justify-content-center"
-                >
-                  <img
-                    id="dp"
-                    class="rounded-circle my-3"
-                    src="/imgs/Afsana.jpg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="d-flex justify-content-center">
-                <div class="px-6 mt-3">
-                  <h4 style="font-weight: bold" class="text-center">
-                   Afsana Yasmin
-                  </h4>
-                  <p class="text-center px-5">
-                    Dear ECEians,
-It's my immense pleasure to stand at this position and stay uprooted to serve the society, which is not only active but also voluntarily present to bring significant changes for the upliftment of the students. ECS has always taken good care of  all the requirements of the students in the department and I can proudly say that it's all feasible because of the teamwork that is done and seen. I would like to thank my seniors, my beloved batchmates and my dear juniors, and not to forget, our respected faculty members, for always coming together and making things possible. I wish everyone a great year ahead, and for everything that comes along, All the best!<br>
-As we used to say and will say forever,<br>
-"ECE ROCKS!"<br>
-
-General Secretary, ECS<br>
-<u>Afsana Yasmin</u>
-
-                  </p>
-                </div>
-              </div>
-             
-            </div>
-           
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleFade"
-            data-bs-slide="prev"
-          >
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleFade"
-            data-bs-slide="next"
-          >
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-      </div>
+    </div>
 
-      <div style="margin-top: 10vh; margin-bottom: 5vh" class="container px-5" id="About_us">
+    <div style="margin-top: 10vh; margin-bottom: 5vh" class="container px-5" id="About_us">
         <h2 class="text-center" style="font-weight: bolder;">About Us</h2>
 
         <p class="text-center mt-4">
-          Electronics and Communication society, ECS is known for its activeness and creativity.<br>
-          This society stands on the frontline to dig out innovative minds and raw talents.<br>
-          ECS provides the most suitable platform for students to showcase their skills, be it academic, technical or cultural.<br>
-          ECS always facilitates the freshers with warm atmosphere so that they get acquainted with the norms of the branch and the college and also encourages them to create a fresh bond with the seniors.<br>
+            Electronics and Communication society, ECS is known for its activeness and creativity.<br> This society stands on the frontline to dig out innovative minds and raw talents.<br> ECS provides the most suitable platform for students to showcase
+            their skills, be it academic, technical or cultural.<br> ECS always facilitates the freshers with warm atmosphere so that they get acquainted with the norms of the branch and the college and also encourages them to create a fresh bond with
+            the seniors.<br>
         </p>
-      </div>
-<!--
+    </div>
+    <!--
       <div class="container py-5" id="events">
         <h1 style="font-weight: bolder;font-family: 'Vujahday Script', cursive;" class="text-center mb-5">Annual Attractions</h1>
 
@@ -993,262 +995,265 @@ General Secretary, ECS<br>
       </div>
       <br /><br /><br /><br><br><br><br>-->
 
-      <div class="container py-5" id="annual_attraction">
+    <div class="container py-5" id="annual_attraction">
         <h1 style="font-weight: bolder;" class="text-center mb-5">Annual Attractions</h1>
 
-        <div
-          id="carouselExampleInterval"
-          class="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row" id="events">
-                <div class="col-12 col-md-4" id="col">
-                  <div id="event" class="card text-white bg-light mb-3 odd">
-                    <div class="card-header event-head-odd" id="event-head" style="color: white;">
-                      Orientation
-                    </div>
-                    <div class="card-body">
-                     <!-- <h5 class="card-title">Orientation</h5>-->
-                      <p class="card-text">
-                        An introductory session for the fresh faces to interact with the branch members and faculties, and build up their knowledge about the Branch. Newly admitted students can clear their doubts and queries regarding the branch and it’s functioning.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-md-4" id="col">
-                  <div id="event" class="card text-white bg-light mb-3 even">
-                    <div class="card-header event-head-even" id="event-head" style="color: white;">
-                      <a href="https://ecs-nits.com/spectrum/" target="_blank" style="text-decoration: none;color: white;">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row" id="events">
+                        <div class="col-12 col-md-4" id="col">
+                            <div id="event" class="card text-white bg-light mb-3 odd">
+                                <div class="card-header event-head-odd" id="event-head" style="color: white;">
+                                    Orientation
+                                </div>
+                                <div class="card-body">
+                                    <!-- <h5 class="card-title">Orientation</h5>-->
+                                    <p class="card-text">
+                                        An introductory session for the fresh faces to interact with the branch members and faculties, and build up their knowledge about the Branch. Newly admitted students can clear their doubts and queries regarding the branch and its functioning.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4" id="col">
+                            <div id="event" class="card text-white bg-light mb-3 even">
+                                <div class="card-header event-head-even" id="event-head" style="color: white;">
+                                    <a href="https://ecs-nits.com/spectrum/" target="_blank" style="text-decoration: none;color: white;">
                       Spectrum</a>
-                    </div>
-                    <div class="card-body">
-                    <!--  <a href="https://ecs-nits.com/spectrum/" target="_blank" style="text-decoration: none;">
+                                </div>
+                                <div class="card-body">
+                                    <!--  <a href="https://ecs-nits.com/spectrum/" target="_blank" style="text-decoration: none;">
                       <h5 class="card-title">Spectrum</h5></a>-->
-                      <p class="card-text">
-                        The technical weekend of ECS, alias Spectrum, is the platform where students are urged to showcase their technical skills and knowledge which is conducted once annually. It nurtures their base and helps them strengthen their skills in a fun way.
-                        <a href="https://ecs-nits.com/spectrum/" target="_blank" style="text-decoration: none;">more...</a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-md-4" id="col">
-                  <div id="event" class="card text-white bg-light mb-3 odd">
-                    <div class="card-header event-head-odd" id="event-head" style="color: white;">
-                      <a href="https://spectrum-connect-2.0.ecs-nits.com/" target="_blank" style="text-decoration: none;color: white;">
+                                    <p class="card-text">
+                                        The technical weekend of ECS, alias Spectrum, is the platform where students are urged to showcase their technical skills and knowledge which is conducted once annually. It nurtures their base and helps them strengthen their skills in a fun way.
+                                        <a href="https://ecs-nits.com/spectrum/" target="_blank" style="text-decoration: none;">more...</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4" id="col">
+                            <div id="event" class="card text-white bg-light mb-3 odd">
+                                <div class="card-header event-head-odd" id="event-head" style="color: white;">
+                                    <a href="https://spectrum-connect-2.0.ecs-nits.com/" target="_blank" style="text-decoration: none;color: white;">
                       Spectrum Connect</a>
-                    </div>
-                    <div class="card-body connectBody">
-                    <!--  <a href="https://spectrum-connect-2.0.ecs-nits.com/" target="_blank" style="text-decoration: none;">
+                                </div>
+                                <div class="card-body connectBody">
+                                    <!--  <a href="https://spectrum-connect-2.0.ecs-nits.com/" target="_blank" style="text-decoration: none;">
                       <h5 class="card-title">Spectrum Connect</h5></a>-->
-                      <p class="card-text connect_text"  style="font-size: small;">
-                        Under our current situation, ECS conducted an online event called Spectrum Connect. The sole purpose of this event was to connect the students of NITS, who lost their contact with each other owing to the ongoing, seemingly perpetual, lockdown. This event conducted online games, cultural events and technical events.
-                        <a href="https://spectrum-connect-2.0.ecs-nits.com/" target="_blank" style="text-decoration: none;">more...</a>
-                      </p>
+                                    <p class="card-text connect_text" style="font-size: small;">
+                                        Under our current situation, ECS conducted an online event called Spectrum Connect. The sole purpose of this event was to connect the students of NITS, who lost their contact with each other owing to the ongoing, seemingly perpetual, lockdown. This event
+                                        conducted online games, cultural events and technical events.
+                                        <a href="https://spectrum-connect-2.0.ecs-nits.com/" target="_blank" style="text-decoration: none;">more...</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row" id="events">
-                <div class="col-12 col-md-4" id="col">
-                  <div id="event" class="card text-white bg-light mb-3 even">
-                    <div class="card-header event-head-even" id="event-head" style="color: white;">
-                      Dehleez
-                    </div>
-                    <div class="card-body">
-                    <!--  <h5 class="card-title">Dehleez</h5>-->
-                      <p class="card-text">
-                        Like every exclusive section, ECE also has it's own branch farewell by the name Dehleez. Since the session gets over and the time comes to go past the limit set in the four years, the name clearly justifies the occasion. It is basically a cultural get-together to bid adios to our beloved seniors.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-md-4" id="col">
-                  <div id="event" class="card text-white bg-light mb-3 odd">
-                    <div class="card-header event-head-odd" id="event-head" style="color: white;">
-                      <a class="reset-darkmode-text" href="https://drive.google.com/file/d/1uepgokTi5zm5G752cmf6DttjEnk8zEpq/view?fbclid=IwAR2kFiZq7Dmzjc8X62oHSk2XRnQay4PcgM4bTvlW1J058kZUZlwR_XA3Nr8"  target="_blank" style="text-decoration: none;color: white;">
+                <div class="carousel-item">
+                    <div class="row" id="events">
+                        <div class="col-12 col-md-4" id="col">
+                            <div id="event" class="card text-white bg-light mb-3 even">
+                                <div class="card-header event-head-even" id="event-head" style="color: white;">
+                                    Dehleez
+                                </div>
+                                <div class="card-body">
+                                    <!--  <h5 class="card-title">Dehleez</h5>-->
+                                    <p class="card-text">
+                                        Like every exclusive section, ECE also has it's own branch farewell by the name Dehleez. Since the session gets over and the time comes to go past the limit set in the four years, the name clearly justifies the occasion. It is basically a cultural get-together
+                                        to bid adios to our beloved seniors.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4" id="col">
+                            <div id="event" class="card text-white bg-light mb-3 odd">
+                                <div class="card-header event-head-odd" id="event-head" style="color: white;">
+                                    <a class="reset-darkmode-text" href="https://drive.google.com/file/d/1uepgokTi5zm5G752cmf6DttjEnk8zEpq/view?fbclid=IwAR2kFiZq7Dmzjc8X62oHSk2XRnQay4PcgM4bTvlW1J058kZUZlwR_XA3Nr8" target="_blank" style="text-decoration: none;color: white;">
                       Spectre</a>
+                                </div>
+                                <div class="card-body">
+                                    <!-- <h5 class="card-title">Lorem</h5>-->
+                                    <p class="card-text">
+                                        Spectre is the annual newsletter published by ECS which chronicles all the events happening round-the-year and organized under the banner of ECS. It also includes entries from students, faculties and alumni and hence acts as a creative space of the ECE
+                                        family. <a class="reset-darkmode-text" href="https://drive.google.com/file/d/1uepgokTi5zm5G752cmf6DttjEnk8zEpq/view?fbclid=IwAR2kFiZq7Dmzjc8X62oHSk2XRnQay4PcgM4bTvlW1J058kZUZlwR_XA3Nr8"
+                                            target="_blank" style="text-decoration: none;">more...</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4" id="col">
+                            <div id="event" class="card text-white bg-light mb-3 even">
+                                <div class="card-header event-head-even" id="event-head" style="color: white;">
+                                    Orientation
+                                </div>
+                                <div class="card-body">
+                                    <!-- <h5 class="card-title">Orientation</h5>-->
+                                    <p class="card-text">
+                                        An introductory session for the fresh faces to interact with the branch members and faculties, and build up their knowledge about the Branch. Newly admitted students can clear their doubts and queries regarding the branch and its functioning.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-body">
-                     <!-- <h5 class="card-title">Lorem</h5>-->
-                      <p class="card-text">
-                        Spectre is the annual newsletter published by ECS which chronicles all the events happening round-the-year and organized under the banner of ECS. It also includes entries from students, faculties and alumni and hence acts as a creative space of the ECE family. <a class="reset-darkmode-text" href="https://drive.google.com/file/d/1uepgokTi5zm5G752cmf6DttjEnk8zEpq/view?fbclid=IwAR2kFiZq7Dmzjc8X62oHSk2XRnQay4PcgM4bTvlW1J058kZUZlwR_XA3Nr8"  target="_blank" style="text-decoration: none;">more...</a>
-                      </p>
-                    </div>
-                  </div>
                 </div>
-                <div class="col-12 col-md-4" id="col">
-                  <div id="event" class="card text-white bg-light mb-3 even">
-                    <div class="card-header event-head-even" id="event-head" style="color: white;">
-                      Orientation
-                    </div>
-                    <div class="card-body">
-                     <!-- <h5 class="card-title">Orientation</h5>-->
-                      <p class="card-text">
-                        An introductory session for the fresh faces to interact with the branch members and faculties, and build up their knowledge about the Branch. Newly admitted students can clear their doubts and queries regarding the branch and it’s functioning.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row" id="events">
-                <div class="col-12 col-md-4" id="col">
-                  <div id="event" class="card text-white bg-light mb-3 odd">
-                    <div class="card-header event-head-odd" id="event-head" style="color: white;">
-                      <a href="https://ecs-nits.com/spectrum/" target="_blank" style="text-decoration: none;color: white;">
+                <div class="carousel-item">
+                    <div class="row" id="events">
+                        <div class="col-12 col-md-4" id="col">
+                            <div id="event" class="card text-white bg-light mb-3 odd">
+                                <div class="card-header event-head-odd" id="event-head" style="color: white;">
+                                    <a href="https://ecs-nits.com/spectrum/" target="_blank" style="text-decoration: none;color: white;">
                       Spectrum</a>
-                    </div>
-                    <div class="card-body">
-                     <!-- <a href="https://ecs-nits.com/spectrum/" target="_blank" style="text-decoration: none;">
+                                </div>
+                                <div class="card-body">
+                                    <!-- <a href="https://ecs-nits.com/spectrum/" target="_blank" style="text-decoration: none;">
                       <h5 class="card-title">Spectrum</h5></a>-->
-                      <p class="card-text">
-                        The technical weekend of ECS, alias Spectrum, is the platform where students are urged to showcase their technical skills and knowledge which is conducted once annually. It nurtures their base and helps them strengthen their skills in a fun way.
-                        <a href="https://ecs-nits.com/spectrum/" target="_blank" style="text-decoration: none;">more...</a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-md-4" id="col">
-                  <div id="event" class="card text-white bg-light mb-3 even">
-                    <div class="card-header event-head-even" id="event-head" style="color: white;">
-                      <a href="https://spectrum-connect-2.0.ecs-nits.com/" target="_blank" style="text-decoration: none;color: white;">
+                                    <p class="card-text">
+                                        The technical weekend of ECS, alias Spectrum, is the platform where students are urged to showcase their technical skills and knowledge which is conducted once annually. It nurtures their base and helps them strengthen their skills in a fun way.
+                                        <a href="https://ecs-nits.com/spectrum/" target="_blank" style="text-decoration: none;">more...</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4" id="col">
+                            <div id="event" class="card text-white bg-light mb-3 even">
+                                <div class="card-header event-head-even" id="event-head" style="color: white;">
+                                    <a href="https://spectrum-connect-2.0.ecs-nits.com/" target="_blank" style="text-decoration: none;color: white;">
                       Spectrum Connect</a>
-                    </div>
-                    <div class="card-body connectBody">
-                   <!--   <a href="https://spectrum-connect-2.0.ecs-nits.com/" target="_blank" style="text-decoration: none;">
+                                </div>
+                                <div class="card-body connectBody">
+                                    <!--   <a href="https://spectrum-connect-2.0.ecs-nits.com/" target="_blank" style="text-decoration: none;">
                       <h5 class="card-title">Spectrum Connect</h5></a>-->
-                      <p class="card-text connect_text" style="font-size: small;">
-                        Under our current situation, ECS conducted an online event called Spectrum Connect. The sole purpose of this event was to connect the students of NITS, who lost their contact with each other owing to the ongoing, seemingly perpetual, lockdown. This event conducted online games, cultural events and technical events.
-                        <a href="https://spectrum-connect-2.0.ecs-nits.com/" target="_blank" style="text-decoration: none;">more...</a>
-                      </p>
+                                    <p class="card-text connect_text" style="font-size: small;">
+                                        Under our current situation, ECS conducted an online event called Spectrum Connect. The sole purpose of this event was to connect the students of NITS, who lost their contact with each other owing to the ongoing, seemingly perpetual, lockdown. This event
+                                        conducted online games, cultural events and technical events.
+                                        <a href="https://spectrum-connect-2.0.ecs-nits.com/" target="_blank" style="text-decoration: none;">more...</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4" id="col">
+                            <div id="event" class="card text-white bg-light mb-3 odd">
+                                <div class="card-header event-head-odd" id="event-head" style="color: white;">
+                                    Orientation
+                                </div>
+                                <div class="card-body">
+                                    <!--  <h5 class="card-title">Orientation</h5>-->
+                                    <p class="card-text">
+                                        An introductory session for the fresh faces to interact with the branch members and faculties, and build up their knowledge about the Branch. Newly admitted students can clear their doubts and queries regarding the branch and its functioning.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                <div class="col-12 col-md-4" id="col">
-                  <div id="event" class="card text-white bg-light mb-3 odd">
-                    <div class="card-header event-head-odd" id="event-head" style="color: white;">
-                      Orientation
-                    </div>
-                    <div class="card-body">
-                    <!--  <h5 class="card-title">Orientation</h5>-->
-                      <p class="card-text">
-                        An introductory session for the fresh faces to interact with the branch members and faculties, and build up their knowledge about the Branch. Newly admitted students can clear their doubts and queries regarding the branch and it’s functioning.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
 
 
-            <div class="carousel-item">
-              <div class="row" id="events">
-                <div class="col-12 col-md-4" id="col">
-                  <div id="event" class="card text-white bg-light mb-3 odd">
-                    <div class="card-header event-head-even" id="event-head" style="color: white;">
-                      <a href="https://spectrum-connect-2.0.ecs-nits.com/" target="_blank" style="text-decoration: none;color: white;">
+                <div class="carousel-item">
+                    <div class="row" id="events">
+                        <div class="col-12 col-md-4" id="col">
+                            <div id="event" class="card text-white bg-light mb-3 odd">
+                                <div class="card-header event-head-even" id="event-head" style="color: white;">
+                                    <a href="https://spectrum-connect-2.0.ecs-nits.com/" target="_blank" style="text-decoration: none;color: white;">
                       Spectrum Connect</a>
-                    </div>
-                    <div class="card-body connectBody">
-                     <!-- <a href="https://spectrum-connect-2.0.ecs-nits.com/" target="_blank" style="text-decoration: none;">
+                                </div>
+                                <div class="card-body connectBody">
+                                    <!-- <a href="https://spectrum-connect-2.0.ecs-nits.com/" target="_blank" style="text-decoration: none;">
                       <h5 class="card-title">Spectrum Connect</h5></a>-->
-                      <p class="card-text connect_text" style="font-size: small;">
-                        Under our current situation, ECS conducted an online event called Spectrum Connect. The sole purpose of this event was to connect the students of NITS, who lost their contact with each other owing to the ongoing, seemingly perpetual, lockdown. This event conducted online games, cultural events and technical events.
-                        <a href="https://spectrum-connect-2.0.ecs-nits.com/" target="_blank" style="text-decoration: none;">more...</a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-md-4" id="col">
-                  <div id="event" class="card text-white bg-light mb-3 even">
-                    <div class="card-header event-head-odd" id="event-head" style="color: white;">
-                      <a class="reset-darkmode-text" href="https://drive.google.com/file/d/1uepgokTi5zm5G752cmf6DttjEnk8zEpq/view?fbclid=IwAR2kFiZq7Dmzjc8X62oHSk2XRnQay4PcgM4bTvlW1J058kZUZlwR_XA3Nr8"  target="_blank" style="text-decoration: none;color: white;">
+                                    <p class="card-text connect_text" style="font-size: small;">
+                                        Under our current situation, ECS conducted an online event called Spectrum Connect. The sole purpose of this event was to connect the students of NITS, who lost their contact with each other owing to the ongoing, seemingly perpetual, lockdown. This event
+                                        conducted online games, cultural events and technical events.
+                                        <a href="https://spectrum-connect-2.0.ecs-nits.com/" target="_blank" style="text-decoration: none;">more...</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4" id="col">
+                            <div id="event" class="card text-white bg-light mb-3 even">
+                                <div class="card-header event-head-odd" id="event-head" style="color: white;">
+                                    <a class="reset-darkmode-text" href="https://drive.google.com/file/d/1uepgokTi5zm5G752cmf6DttjEnk8zEpq/view?fbclid=IwAR2kFiZq7Dmzjc8X62oHSk2XRnQay4PcgM4bTvlW1J058kZUZlwR_XA3Nr8" target="_blank" style="text-decoration: none;color: white;">
                       Spectre</a>
-                    </div>
-                    <div class="card-body">
-                      <!--<h5 class="card-title">Lorem</h5>-->
-                      <p class="card-text">
-                        Spectre is the annual newsletter published by ECS which chronicles all the events happening round-the-year and organized under the banner of ECS. It also includes entries from students, faculties and alumni and hence acts as a creative space of the ECE family. <a class="reset-darkmode-text" href="https://drive.google.com/file/d/1uepgokTi5zm5G752cmf6DttjEnk8zEpq/view?fbclid=IwAR2kFiZq7Dmzjc8X62oHSk2XRnQay4PcgM4bTvlW1J058kZUZlwR_XA3Nr8"  target="_blank" style="text-decoration: none;">more...</a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-md-4" id="col">
-                  <div id="event" class="card text-white bg-light mb-3 odd">
-                    <div class="card-header event-head-even" id="event-head" style="color: white;">
-                      <a href="https://spectrum-connect-2.0.ecs-nits.com/" target="_blank" style="text-decoration: none;color: white;">
+                                </div>
+                                <div class="card-body">
+                                    <!--<h5 class="card-title">Lorem</h5>-->
+                                    <p class="card-text">
+                                        Spectre is the annual newsletter published by ECS which chronicles all the events happening round-the-year and organized under the banner of ECS. It also includes entries from students, faculties and alumni and hence acts as a creative space of the ECE
+                                        family. <a class="reset-darkmode-text" href="https://drive.google.com/file/d/1uepgokTi5zm5G752cmf6DttjEnk8zEpq/view?fbclid=IwAR2kFiZq7Dmzjc8X62oHSk2XRnQay4PcgM4bTvlW1J058kZUZlwR_XA3Nr8"
+                                            target="_blank" style="text-decoration: none;">more...</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4" id="col">
+                            <div id="event" class="card text-white bg-light mb-3 odd">
+                                <div class="card-header event-head-even" id="event-head" style="color: white;">
+                                    <a href="https://spectrum-connect-2.0.ecs-nits.com/" target="_blank" style="text-decoration: none;color: white;">
                       Spectrum Connect</a>
-                    </div>
-                    <div class="card-body connectBody">
-                     <!-- <a href="https://spectrum-connect-2.0.ecs-nits.com/" target="_blank" style="text-decoration: none;">
+                                </div>
+                                <div class="card-body connectBody">
+                                    <!-- <a href="https://spectrum-connect-2.0.ecs-nits.com/" target="_blank" style="text-decoration: none;">
                       <h5 class="card-title">Spectrum Connect</h5></a>-->
-                      <p class="card-text connect_text" style="font-size: small;">
-                        Under our current situation, ECS conducted an online event called Spectrum Connect. The sole purpose of this event was to connect the students of NITS, who lost their contact with each other owing to the ongoing, seemingly perpetual, lockdown. This event conducted online games, cultural events and technical events.
-                        <a href="https://spectrum-connect-2.0.ecs-nits.com/" target="_blank" style="text-decoration: none;">more...</a>
-                      </p>
+                                    <p class="card-text connect_text" style="font-size: small;">
+                                        Under our current situation, ECS conducted an online event called Spectrum Connect. The sole purpose of this event was to connect the students of NITS, who lost their contact with each other owing to the ongoing, seemingly perpetual, lockdown. This event
+                                        conducted online games, cultural events and technical events.
+                                        <a href="https://spectrum-connect-2.0.ecs-nits.com/" target="_blank" style="text-decoration: none;">more...</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-            </div>
 
 
-            <div class="carousel-item">
-              <div class="row" id="events">
-                <div class="col-12 col-md-4" id="col">
-                  <div id="event" class="card text-white bg-light mb-3 odd">
-                    <div class="card-header event-head-odd" id="event-head" style="color: white;">
-                      <a class="reset-darkmode-text" href="https://drive.google.com/file/d/1uepgokTi5zm5G752cmf6DttjEnk8zEpq/view?fbclid=IwAR2kFiZq7Dmzjc8X62oHSk2XRnQay4PcgM4bTvlW1J058kZUZlwR_XA3Nr8"  target="_blank" style="text-decoration: none;color: white;">
+                <div class="carousel-item">
+                    <div class="row" id="events">
+                        <div class="col-12 col-md-4" id="col">
+                            <div id="event" class="card text-white bg-light mb-3 odd">
+                                <div class="card-header event-head-odd" id="event-head" style="color: white;">
+                                    <a class="reset-darkmode-text" href="https://drive.google.com/file/d/1uepgokTi5zm5G752cmf6DttjEnk8zEpq/view?fbclid=IwAR2kFiZq7Dmzjc8X62oHSk2XRnQay4PcgM4bTvlW1J058kZUZlwR_XA3Nr8" target="_blank" style="text-decoration: none;color: white;">
                       Spectre</a>
+                                </div>
+                                <div class="card-body">
+                                    <!-- <h5 class="card-title">Lorem</h5>-->
+                                    <p class="card-text">
+                                        Spectre is the annual newsletter published by ECS which chronicles all the events happening round-the-year and organized under the banner of ECS. It also includes entries from students, faculties and alumni and hence acts as a creative space of the ECE
+                                        family. <a class="reset-darkmode-text" href="https://drive.google.com/file/d/1uepgokTi5zm5G752cmf6DttjEnk8zEpq/view?fbclid=IwAR2kFiZq7Dmzjc8X62oHSk2XRnQay4PcgM4bTvlW1J058kZUZlwR_XA3Nr8"
+                                            target="_blank" style="text-decoration: none;">more...</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4" id="col">
+                            <div id="event" class="card text-white bg-light mb-3 even">
+                                <div class="card-header event-head-even" id="event-head" style="color: white;">
+                                    Dehleez
+                                </div>
+                                <div class="card-body">
+                                    <!--  <h5 class="card-title">Dehleez</h5>-->
+                                    <p class="card-text">
+                                        Like every exclusive section, ECE also has it's own branch farewell by the name Dehleez. Since the session gets over and the time comes to go past the limit set in the four years, the name clearly justifies the occasion. It is basically a cultural get-together
+                                        to bid adios to our beloved seniors.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4" id="col">
+                            <div id="event" class="card text-white bg-light mb-3 odd">
+                                <div class="card-header event-head-odd" id="event-head" style="color: white;">
+                                    Orientation
+                                </div>
+                                <div class="card-body">
+                                    <!--  <h5 class="card-title">Orientation</h5>-->
+                                    <p class="card-text">
+                                        An introductory session for the fresh faces to interact with the branch members and faculties, and build up their knowledge about the Branch. Newly admitted students can clear their doubts and queries regarding the branch and its functioning.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-body">
-                     <!-- <h5 class="card-title">Lorem</h5>-->
-                      <p class="card-text">
-                        Spectre is the annual newsletter published by ECS which chronicles all the events happening round-the-year and organized under the banner of ECS. It also includes entries from students, faculties and alumni and hence acts as a creative space of the ECE family. <a class="reset-darkmode-text" href="https://drive.google.com/file/d/1uepgokTi5zm5G752cmf6DttjEnk8zEpq/view?fbclid=IwAR2kFiZq7Dmzjc8X62oHSk2XRnQay4PcgM4bTvlW1J058kZUZlwR_XA3Nr8"  target="_blank" style="text-decoration: none;">more...</a>
-                      </p>
-                    </div>
-                  </div>
                 </div>
-                <div class="col-12 col-md-4" id="col">
-                  <div id="event" class="card text-white bg-light mb-3 even">
-                    <div class="card-header event-head-even" id="event-head" style="color: white;">
-                      Dehleez
-                    </div>
-                    <div class="card-body">
-                    <!--  <h5 class="card-title">Dehleez</h5>-->
-                      <p class="card-text">
-                        Like every exclusive section, ECE also has it's own branch farewell by the name Dehleez. Since the session gets over and the time comes to go past the limit set in the four years, the name clearly justifies the occasion. It is basically a cultural get-together to bid adios to our beloved seniors.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-md-4" id="col">
-                  <div id="event" class="card text-white bg-light mb-3 odd">
-                    <div class="card-header event-head-odd" id="event-head" style="color: white;">
-                      Orientation
-                    </div>
-                    <div class="card-body">
-                    <!--  <h5 class="card-title">Orientation</h5>-->
-                      <p class="card-text">
-                        An introductory session for the fresh faces to interact with the branch members and faculties, and build up their knowledge about the Branch. Newly admitted students can clear their doubts and queries regarding the branch and it’s functioning.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleInterval"
-            data-bs-slide="prev"
-          >
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
             <i
               style="color: aqua; font-size: 2rem"
               class="carousel-control-prev-icon fas fa-arrow-left"
@@ -1257,12 +1262,7 @@ General Secretary, ECS<br>
 
             <span class="visually-hidden">Previous</span>
           </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleInterval"
-            data-bs-slide="next"
-          >
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
             <i
               style="color: aqua; font-size: 2rem"
               class="carousel-control-next-icon fas fa-arrow-right"
@@ -1271,11 +1271,11 @@ General Secretary, ECS<br>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-      </div>
+    </div>
 
-      <!--==========================gallery====================-->
+    <!--==========================gallery-1-====================-->
 
-      <section class="slideshow-container2">
+    <!--  <section class="slideshow-container2">
 
         <div class="slider">
         <div class="mySlides2 fade2  " style="background-image: url(/gallery_images/img1.jpg)">
@@ -1285,6 +1285,9 @@ General Secretary, ECS<br>
         </div>
         
         <div class="mySlides2 fade2 " style="background-image: url(/gallery_images/img3.jpg)">
+        </div>
+
+        <div class="mySlides2 fade2 " style="background-image: url(/gallery_images/img4.jpg)">
         </div>
         
         <a style="text-decoration: none;" class="prev2" onclick="plusSlides(-1)">&#10094;</a>
@@ -1297,71 +1300,90 @@ General Secretary, ECS<br>
           <span class="dot2" onclick="currentSlide(1)"></span> 
           <span class="dot2" onclick="currentSlide(2)"></span> 
           <span class="dot2" onclick="currentSlide(3)"></span> 
+          <span class="dot2" onclick="currentSlide(4)"></span> 
+        </div>-->
+    <!--================gallery-1 END=============-->
+
+    <!--===============gallery-2===============-->
+
+    <div class="slider-container_new">
+
+        <div class="slide_new" style="background-image: url('/gallery_images/img1.jpg')"></div>
+
+        <div class="slide_new" style="background-image: url('/gallery_images/img2.jpg')"></div>
+
+        <div class="slide_new" style="background-image: url('/gallery_images/img3.jpg')"></div>
+
+        <div class="slide_new" style="background-image: url('/gallery_images/img4.jpg')"></div>
+
+        <div class="controls-container_new">
+            <div class="control_new"></div>
+            <div class="control_new"></div>
+            <div class="control_new"></div>
+            <div class="control_new"></div>
         </div>
-        
-        <!--=====button=====-->
-   <!--   <div class="gallerybutton" style="position: relative;
-      text-align: center;
-      border: 1px solid rgb(5, 46, 85);
-      border-radius: 8px;
-      background-color: rgba(255, 255, 255, 0.247);
-      width: fit-content;
-      padding: 3px 6px 3px 6px;
-      margin: auto;
-      text-decoration: none;
-      "><a href="https://gallery-4d663.web.app" style="text-decoration: none; color: white;">Gallery</a></div>
-   -->
-   
-   <a href="/gallery" target="_blank" style="text-decoration: none;"> <div class="button1" style="vertical-align:middle"><span>Gallery</span></div></a>
-        <br><br><br>
+    </div>
 
-      <!--=================footer================-->
-      <div id="footer" class="d-flex justify-content-center">
+    <!--================gallery-2 END=============-->
 
-      
+    <!--======gallery_button==============-->
+    <button class="button1" style="vertical-align:middle"><span><a href="/gallery"  style="text-decoration: none;">Gallery</a></span></button>
+    <br><br><br>
+
+    <!--=================footer================-->
+    <div id="footer" class="d-flex justify-content-center">
+
+
         <div class="Layout container">
-          <div class="row">
-            <div class="col-4" id="part">
-              <h3 id="head-link">Quick Links</h3>
-              <ul>
-                <li id="link" ><a style="text-decoration: none; color: #fff" href="/Resources">Resource Hub</a></li>
-                <li id="link" ><a style="text-decoration: none; color: #fff" href="#messages">Messages</a></li>
-                <li id="link" ><a style="text-decoration: none; color: #fff" href="#annual_attraction">Annual Attractions</a></li>
-              </ul>
-  
-            </div>
-  
-            <div class="col-4" id="part">
-              <!--<h3 style="font-size: 3vw;" class="mb-4">Contact Us</h3>-->
-              <h3 style="font-size: 3vw;" class="mb-4">Contact Us</h3>
-              <h5 style="font-size:2vw">Email: <br><a href="mailto:ecs.nitsilchar2022@gmail.com" style="font-size: 1vw;">
+            <div class="row">
+                <div class="col-4" id="part">
+                    <h3 id="head-link">Quick Links</h3>
+                    <ul style="padding: 0px !important; margin: 0px !important;">
+                        <li id="link"><a style="text-decoration: none; color: #fff" href="/Resources" target="_blank">Resource Hub</a></li>
+                        <li id="link"><a style="text-decoration: none; color: #fff" href="#messages">Messages</a></li>
+                        <li id="link"><a style="text-decoration: none; color: #fff" href="#annual_attraction">Annual Attractions</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="col-4" id="part">
+                    <!--<h3 style="font-size: 3vw;" class="mb-4">Contact Us</h3>-->
+                    <h3 style="font-size: 2vw; margin-bottom: 0.3rem !important;" class="mb-4 newhead">Contact Us</h3>
+                    <h5 style="font-size:1.8vw">Email: <a href="mailto:ecs.nitsilchar2022@gmail.com" style="font-size: 1.6vw;color: blanchedalmond !important;">
                 ecs.nitsilchar2022@gmail.com</a> </h5>
 
-              <h5 style="font-size:2vw" class="mb-3 mt-3">Follow Us On</h5>
-              <div class="d-flex justify-content-center">
-                <i style="font-size: 2vw;" class="fab fa-facebook mx-2"></i><!--xx-large-->
+                    <h5 style="font-size:1.7vw; margin-top: 0px !important; margin-bottom: 1vw !important;" class="mb-3 mt-3">Follow Us On</h5>
+                    <a href="https://www.facebook.com/groups/ecsnits" style="text-decoration: none; color: white;">
+                        <i style="font-size: 2vw;" class="fab fa-facebook mx-2"></i>
+                        <!--xx-large-->
+                    </a>
+                    <!--<div class="d-flex justify-content-center">
+                <i style="font-size: 2vw;" class="fab fa-facebook mx-2"></i><xx-large
                
-              </div>
-  
+              </div>-->
+
+                </div>
+
+                <div class="col-4" id="part">
+                    <h3 id="head-link">Quick Links</h3>
+                    <ul style="padding: 0px !important; margin: 0px !important;">
+                        <li id="link"><a style="text-decoration: none; color: #fff" href="#About_us">About Us</a></li>
+                        <li id="link"><a style="text-decoration: none; color: #fff" href="/Members">Members</a></li>
+                        <li id="link"><a style="text-decoration: none; color: #fff" href="/gallery">Gallery</a></li>
+                    </ul>
+
+                </div><br>
+                <div class="col-12" id="part">
+                    <a href="/FAQ">
+                        <h3 style=" font-weight: bolder; margin-bottom: 1vw !important;margin-top: 1vw !important;" class="mb-4 faq_new">FAQ</h3>
+                    </a>
+                </div>
+                <p class="col-12 cp-text">
+                    © Copyright 2022 ECS,NIT Silchar. All rights reserved.
+                </p>
             </div>
-  
-            <div class="col-4" id="part">
-              <h3 id="head-link">Quick Links</h3>
-              <ul>
-                <li id="link" ><a style="text-decoration: none; color: #fff" href="#About_us">About Us</a></li>
-                <li id="link" ><a style="text-decoration: none; color: #fff" href="/Members">Members</a></li>
-                <li id="link" ><a style="text-decoration: none; color: #fff" href="/gallery">Gallery</a></li>
-              </ul>
-  
-            </div><br>
-            <div class="col-12" id="part"><a href="/FAQ">
-            <h3 style="font-size: 2vw; font-weight: bolder; padding: 8px;margin: 8px;" class="mb-4">FAQ</h3></a></div>
-            <p class="col-12 cp-text">
-              © Copyright 2022 ECS,NIT Silchar. All rights reserved.
-          </p>
-          </div>
         </div>
- 
+
 
 
 
@@ -1372,97 +1394,70 @@ General Secretary, ECS<br>
 
 
 
-  
+
 
     <!-- modal start -->
 
     <!-- Button trigger modal -->
 
     <!-- Modal -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-    <!---------------->
-    <form action="https://formsubmit.co/ecs.nitsilchar2022@gmail.com" method="POST">
-      <!-- Honeypot -->
-      <input type="text" name="_honey" style="display: none;">
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <!---------------->
+        <form action="https://formsubmit.co/ecs.nitsilchar2022@gmail.com" method="POST">
+            <!-- Honeypot -->
+            <input type="text" name="_honey" style="display: none;">
 
-      <!-- Disable Captcha -->
-      <input type="hidden" name="_captcha" value="false">
-<!------------------>
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Contact us</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body px-5 py-5">
-            <div class="form-floating mb-3">
-              <input
-                type="email"
-                class="form-control"
-                id="floatingInput"
-                placeholder="name@example.com"
-                name="Email_ID"
-                required
-              />
-              <label for="floatingInput">Email address</label>
-            </div>
-            <div class="form-floating">
-              <textarea
-                class="form-control"
-                placeholder="Leave a comment here"
-                id="floatingTextarea"
-                rows="3"
-                name="Comments"
-                required
-              ></textarea>
-              <label for="floatingTextarea">Comments</label>
-            </div>
-          </div>
+            <!-- Disable Captcha -->
+            <input type="hidden" name="_captcha" value="false">
+            <!------------------>
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Contact us</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body px-5 py-5">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="Email_ID" required />
+                            <label for="floatingInput">Email address</label>
+                        </div>
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" rows="3" name="Comments" required></textarea>
+                            <label for="floatingTextarea">Comments</label>
+                        </div>
+                    </div>
 
-          <div class="d-grid gap-2">
-            <button type="submit" class="btn btn-primary">Send</button>
-          </div>
-        </div>
-      </div>
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
+                </div>
+            </div>
     </div>
 
     <!-- modal end -->
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <script src="/js/main.js"></script>
 
     <!-- loader start -->
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script>
-      
-      var load = document.getElementById("loader-div");
-      var main = document.getElementById("main-div");
-      main.style.display="none";
-      function loadfun() {
-        $("#loader-div").delay(2000).fadeOut();
-        
-        $("#main-div").delay(2000).fadeIn();
-      }
+        var load = document.getElementById("loader-div");
+        var main = document.getElementById("main-div");
+        main.style.display = "none";
+
+        function loadfun() {
+            $("#loader-div").delay(2000).fadeOut();
+
+            $("#main-div").delay(2000).fadeIn();
+        }
     </script>
 
     <!-- loader end -->
     <!--------slider gallery------->
     <script src="/js/slider.js"></script>
-  </body>
+    <!--<script src="/js/newslide.js"></script>-->
+</body>
+
 </html>

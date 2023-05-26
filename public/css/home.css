@@ -13,7 +13,8 @@ body {
   background-attachment: fixed;
   color: #fff;
   font-family: "Sora", sans-serif !important;
- 
+  scroll-behavior: smooth;
+  /* filter: invert(1); */
 }
 nav {
   background: transparent;
